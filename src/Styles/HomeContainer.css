@@ -15,11 +15,14 @@
   width: 50%;
   align-self: center;
   margin-bottom: 20px;
+  margin-top: -100px;
   transition: all 1s ease-in-out;
 }
 .small-logo {
   width: 20%;
+  min-width: 300px;
   align-self: center;
+  /* margin-top: -100px; */
   margin-bottom: 20px;
   transition: all 1s ease-in-out;
 }
@@ -35,27 +38,66 @@
 .button {
   color: rgb(252, 184, 106);
   background-color: transparent;
+  line-height: 30px;
+  width: 130px;
   font-size: 14px;
   font-weight: bold;
   border: 1px solid transparent;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 .button:hover {
-  color: rgb(240, 225, 206);
-  background-color: transparent;
+  background-color: rgb(252, 184, 106);
+  color: rgb(51, 31, 31);
+  line-height: 30px;
+  width: 130px;
+  border-radius: 35px;
   font-size: 14px;
   border: 1px solid transparent;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.button:active {
+  background-color: rgb(214, 181, 143);
+  color: rgb(83, 23, 23);
+  line-height: 30px;
+  width: 130px;
+  border-radius: 35px;
+  font-size: 14px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.35s ease-in-out;
+}
+.button:focus {
+  outline: 0;
+}
+.highlight-button {
+  background-color: rgb(226, 204, 176);
+  color: rgb(141, 37, 37);
+  line-height: 30px;
+  width: 130px;
+  border-radius: 35px;
+  font-weight: bold;
+  font-size: 14px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.35s ease-in-out;
+}
+.highlight-button:focus {
+  outline: 0;
 }
 .content {
   height: 65%;
+  align-self: center;
+  width: 75%;
+  background-color: rgb(3, 3, 3);
   border: 5px solid rgb(252, 184, 106);
+  border-radius: 7px;
   transition: all 1s ease-in-out;
 }
 .content-closed {
   height: 0px;
-  ;
+  width: 40%;
+  align-self: center;
   transition: all 1s ease-in-out;
 }
 .background-video {
@@ -87,3 +129,29 @@
     background: url('')
   } 
 } */
+
+.footer-info-container {
+  position: absolute;
+  bottom: 10px;
+  font-size: 10.5px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.footer-info {
+  color: rgb(122, 112, 97);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.footer-links {
+  color: rgba(252, 184, 106, 0.308);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.footer-links:hover {
+  color: rgb(252, 184, 106);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}

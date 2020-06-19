@@ -1,29 +1,63 @@
 import React, { useState } from 'react';
 import Images from '../AssetLibraries/Images';
-import '../Styles/HomeContainer.css'
+import '../Styles/HomeContainer.css';
 
 const HomeContainer = () => {
+	const [ about, setAbout ] = useState(false);
+	const [ book, setBook ] = useState(false);
+	const [ catalogue, setCatalogue ] = useState(false);
 
-  const [contentOpen, setContentOpen] = useState(false)
+	return (
+		<div className="home-container-container">
+			<div className="home-body">
+				<img src={Images.logo} className={about || book || catalogue ? 'small-logo' : 'logo'} />
+				<div className={about || book || catalogue ? 'content' : 'content-closed'} />
+				<div className="buttons-container">
+					<button
+						onClick={() => {
+							setAbout(true);
+							setBook(false);
+							setCatalogue(false);
+						}}
+						className={about ? 'highlight-button' : 'button'}
+					>
+						ABOUT
+					</button>
+					<button
+						onClick={() => {
+							setBook(true);
+							setAbout(false);
+							setCatalogue(false);
+						}}
+						className={book ? 'highlight-button' : 'button'}
+					>
+						BOOK
+					</button>
+					<button
+						onClick={() => {
+							setCatalogue(true);
+							setAbout(false);
+							setBook(false);
+						}}
+						className={catalogue ? 'highlight-button' : 'button'}
+					>
+						CATALOGUE
+					</button>
+				</div>
+			</div>
 
-  return (
-    <div className="home-container-container">
+			<div className="footer-info-container">
+        
+				<span className="footer-info">© COPYRIGHT 2020 MATTEO DESANTIS, LLC</span>
+				<span className="footer-info">CONTACT:</span>
+				<span className="footer-info">908.723.5320</span>
+				<span className="footer-info"><a className="footer-links" href="mailto:matteodesantis@gmail.com" target="_blank">MatteoDeSantis@gmail.com</a></span>
+				<span className="footer-info">WEB DESIGN: <a className="footer-links" href="https://www.linkedin.com/in/alejoluis/" target="_blank">LUIS ALEJO</a></span>
 
-      <div className="home-body">
-        <img src={Images.logo} className={contentOpen ? "small-logo" : "logo"}/>
-        <div className={contentOpen ? "content" : "content-closed"}>
-          
-        </div>
-        <div className="buttons-container">
-          <button onClick={() => setContentOpen(true)} className="button">ABOUT</button>
-          <button onClick={() => setContentOpen(true)} className="button">BOOK</button>
-          <button onClick={() => setContentOpen(true)} className="button">CATALOGUE</button>
-        </div>
-      </div>
-
-      <img src={Images.backgroundVideo} className="background-video" />
-    </div>
-  );
-}
+			</div>
+			<img src={Images.backgroundVideo} className="background-video" />
+		</div>
+	);
+};
 
 export default HomeContainer;
