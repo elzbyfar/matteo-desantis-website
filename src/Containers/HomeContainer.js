@@ -12,6 +12,17 @@ const HomeContainer = () => {
 			<div className="home-body">
 				<img src={Images.logo} className={about || book || catalogue ? 'small-logo' : 'logo'} />
 				<div className={about || book || catalogue ? 'content' : 'content-closed'} />
+        
+        {/* <div className="about-content-container">
+          <div className="content-links">
+            <ul>
+              <li>BIO</li>
+              <li>GALLERY</li>
+              <li>PRESS + TESTIMONIALS</li>
+            </ul>
+          </div>
+          <div className="about-content"></div>
+        </div> */}
 				<div className="buttons-container">
 					<button
 						onClick={() => {
@@ -52,7 +63,7 @@ const HomeContainer = () => {
 				<span className="footer-info">CONTACT:</span>
 				<span className="footer-info">908.723.5320</span>
 				<span className="footer-info"><a className="footer-links" href="mailto:matteodesantis@gmail.com" target="_blank">MatteoDeSantis@gmail.com</a></span>
-				<span className="footer-info">WEB DESIGN: <a className="footer-links" href="https://www.linkedin.com/in/alejoluis/" target="_blank">LUIS ALEJO</a></span>
+				<span className="footer-info">WEB DESIGN: <a className="footer-links" href="https://www.linkedin.com/in/alejoluis/" target="_blank">Luis Alejo</a></span>
 
 			</div>
 			<img src={Images.backgroundVideo} className="background-video" />

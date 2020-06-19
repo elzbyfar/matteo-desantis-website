@@ -17,6 +17,7 @@
   margin-bottom: 20px;
   margin-top: -100px;
   transition: all 1s ease-in-out;
+  background-attachment: s;
 }
 .small-logo {
   width: 20%;
@@ -27,6 +28,7 @@
   transition: all 1s ease-in-out;
 }
 .buttons-container {
+  /* position: absolute; */
   margin-top: 20px;
   align-self: center;
   display: flex;
@@ -39,17 +41,21 @@
   color: rgb(252, 184, 106);
   background-color: transparent;
   line-height: 30px;
-  width: 130px;
+  width: 150px;
+  text-align: center;
   font-size: 14px;
   font-weight: bold;
+  letter-spacing: 4px;
   border: 1px solid transparent;
   transition: all 0.35s ease-in-out;
 }
 .button:hover {
   background-color: rgb(252, 184, 106);
+  letter-spacing: 4px;
   color: rgb(51, 31, 31);
   line-height: 30px;
-  width: 130px;
+  width: 150px;
+  text-align: center;
   border-radius: 35px;
   font-size: 14px;
   border: 1px solid transparent;
@@ -59,8 +65,10 @@
 .button:active {
   background-color: rgb(214, 181, 143);
   color: rgb(83, 23, 23);
+  letter-spacing: 4px;
   line-height: 30px;
-  width: 130px;
+  width: 150px;
+  text-align: center;
   border-radius: 35px;
   font-size: 14px;
   border: 1px solid transparent;
@@ -72,9 +80,11 @@
 }
 .highlight-button {
   background-color: rgb(226, 204, 176);
+  letter-spacing: 4px;
   color: rgb(141, 37, 37);
   line-height: 30px;
-  width: 130px;
+  width: 150px;
+  text-align: center;
   border-radius: 35px;
   font-weight: bold;
   font-size: 14px;
@@ -154,4 +164,18 @@
   color: rgb(252, 184, 106);
   text-decoration: none;
   transition: all 0.3s ease-in-out;
+}
+.actual-content-container {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.content-links {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: rgb(252, 184, 106);
+  align-self: center;
+  align-items: center;
 }
