@@ -251,7 +251,10 @@
 	background: #383838;
 }
 .image-card {
-	width: 100%;
+	position: relative;
+	background: #fff;
+	width: 400px;
+	height: 500px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
