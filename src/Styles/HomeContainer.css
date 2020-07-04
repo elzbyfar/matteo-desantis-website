@@ -239,6 +239,19 @@
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+.image-card {
+	align-items: center;
+}
+.image-title {
+	text-align: center;
+	position: absolute;
+}
+.actual-photo {
+	width: 70%;
+}
+
+
 .footer-info-container {
 	position: absolute;
 	bottom: 10px;
