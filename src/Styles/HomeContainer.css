@@ -240,15 +240,25 @@
 }
 
 
-.image-card {
+.gallery-container {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
 	align-items: center;
+	min-height: 100vh;
+	background: #383838;
+}
+.image-title-container {
+	align-items: center;
+	width: 65%;
 }
 .image-title {
 	text-align: center;
-	position: absolute;
+	font-weight: 900;
 }
 .actual-photo {
-	width: 70%;
+	width: 60%;
 }
 
 
