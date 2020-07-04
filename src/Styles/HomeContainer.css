@@ -168,6 +168,20 @@
 	height: 25%;
 	transition: all 0.2s ease-in-out;
 }
+.sub-links-highlighted {
+	background-color: rgb(252, 184, 106);
+	border: 1px solid transparent;
+	color: rgb(51, 31, 31);
+	border: 1px solid transparent;
+	width: 100%;
+	font-size: 17px;
+	font-weight: 800;
+	height: 25%;
+	transition: all 0.2s ease-in-out;
+}
+.sub-links-highlighted:focus {
+	outline: 0;
+}
 .sub-links:hover {
 	background-color: rgb(252, 184, 106);
 	border: 1px solid transparent;
