@@ -157,6 +157,7 @@
 	min-width: 150px;
 	align-self: center;
 	border-right: 5px solid rgb(252, 184, 106);
+	justify-content: space-evenly;
 }
 .sub-links {
 	background-color: transparent;
@@ -165,7 +166,7 @@
 	color: rgb(252, 184, 106);
 	font-size: 17px;
 	font-weight: 800;
-	height: 25%;
+	height: 100%;
 	transition: all 0.2s ease-in-out;
 }
 .sub-links-highlighted {
@@ -176,7 +177,7 @@
 	width: 100%;
 	font-size: 17px;
 	font-weight: 800;
-	height: 25%;
+	height: 100%;
 	transition: all 0.2s ease-in-out;
 }
 .sub-links-highlighted:focus {
@@ -190,7 +191,7 @@
 	font-weight: 800;
 	width: 100%;
 	cursor: pointer;
-	height: 25%;
+	height: 100%;
 	transition: all 0.2s ease-in-out;
 }
 .sub-links:focus {
