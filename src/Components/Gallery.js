@@ -7,7 +7,7 @@ const Gallery = () => {
     <div className="gallery-container">
       <div className="image-card">
         <div className="photo-container">
-          <img src={Images.matthew1} className="actual-photo"/>
+          <img src={Images.matthew2} className="actual-photo"/>
         </div>
       </div>
     </div>
