@@ -374,6 +374,44 @@ html {
 	animation: slide 1s 1;
 }
 
+
+
+.socials-list {
+	padding: 0;
+	text-align: center;
+}
+
+.socials-list li {
+	background-color: rgb(252, 184, 106);
+	list-style: none;
+	display: inline-block;
+	margin-right: 4px;
+	border-radius: 2em;
+	overflow: hidden;
+}
+.socials-list li a {
+	display: block;
+	padding-right: .5em;
+	min-width: 1.28571429em;
+	max-width: 1.28571429em;
+	height: 1.28571429em;
+	white-space: nowrap;
+	line-height: 1.5em;
+	transition: 0.5s;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.socials-list li .icons {
+	margin-right: 0.5em;
+}
+.socials-list li:hover a{
+	max-width: 200px;
+	padding-right: 1em;
+}
+
+
+
+
 .footer-info-container {
 	position: absolute;
 	bottom: 10px;
