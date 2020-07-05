@@ -7,6 +7,7 @@ const Gallery = () => {
 
 	return (
 		<div className="gallery-container">
+
 			<ul className="slides">
         {Images.gallery.map((pic, index) => {
           return (
@@ -16,6 +17,7 @@ const Gallery = () => {
             )
         })}
 			</ul>
+
 			<ul className="thumbnails">
         {Images.gallery.map((pic, index) => {
           return (
@@ -27,6 +29,7 @@ const Gallery = () => {
             )
         })}
 			</ul>
+      
 		</div>
 	);
 };

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ca543eb435e7ed85d3ef19c17a908c7e",
+    "revision": "71522821215c39eb44b9a3ab398731f1",
     "url": "/matteo-desantis-website/index.html"
   },
   {
-    "revision": "cf2411c921e14d807621",
-    "url": "/matteo-desantis-website/static/css/main.075361d4.chunk.css"
+    "revision": "7ea0599c042775875257",
+    "url": "/matteo-desantis-website/static/css/main.8d5e3a12.chunk.css"
   },
   {
     "revision": "1269a1874e547ff997ca",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/matteo-desantis-website/static/js/2.3b14fc51.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cf2411c921e14d807621",
+    "revision": "7ea0599c042775875257",
     "url": "/matteo-desantis-website/static/js/main.e482e396.chunk.js"
   },
   {

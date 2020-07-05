@@ -381,19 +381,6 @@ html {
 		z-index: 2;
 	}
 }
-/* .image-card {
-	position: relative;
-	width: 150px;
-	height: 150px;
-	margin: 10px;
-}
-.actual-photo {
-	object-fit: cover;
-	padding: 10%;
-	width: 80%;
-	height: 80%;
-} */
-
 
 .footer-info-container {
 	position: absolute;

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/matteo-desantis-website/static/css/main.075361d4.chunk.css",
+    "main.css": "/matteo-desantis-website/static/css/main.8d5e3a12.chunk.css",
     "main.js": "/matteo-desantis-website/static/js/main.e482e396.chunk.js",
     "main.js.map": "/matteo-desantis-website/static/js/main.e482e396.chunk.js.map",
     "runtime-main.js": "/matteo-desantis-website/static/js/runtime-main.308a4c76.js",
@@ -8,9 +8,9 @@
     "static/js/2.3b14fc51.chunk.js": "/matteo-desantis-website/static/js/2.3b14fc51.chunk.js",
     "static/js/2.3b14fc51.chunk.js.map": "/matteo-desantis-website/static/js/2.3b14fc51.chunk.js.map",
     "index.html": "/matteo-desantis-website/index.html",
-    "precache-manifest.4489b2c6eaba9f675f51c20f2d7d3a26.js": "/matteo-desantis-website/precache-manifest.4489b2c6eaba9f675f51c20f2d7d3a26.js",
+    "precache-manifest.84d411480b192a8f737100398b08bffe.js": "/matteo-desantis-website/precache-manifest.84d411480b192a8f737100398b08bffe.js",
     "service-worker.js": "/matteo-desantis-website/service-worker.js",
-    "static/css/main.075361d4.chunk.css.map": "/matteo-desantis-website/static/css/main.075361d4.chunk.css.map",
+    "static/css/main.8d5e3a12.chunk.css.map": "/matteo-desantis-website/static/css/main.8d5e3a12.chunk.css.map",
     "static/js/2.3b14fc51.chunk.js.LICENSE.txt": "/matteo-desantis-website/static/js/2.3b14fc51.chunk.js.LICENSE.txt",
     "static/media/HomeContainer.css": "/matteo-desantis-website/static/media/background-vid.8a19f9a6.gif",
     "static/media/logo.svg": "/matteo-desantis-website/static/media/logo.5d5d9eef.svg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.308a4c76.js",
     "static/js/2.3b14fc51.chunk.js",
-    "static/css/main.075361d4.chunk.css",
+    "static/css/main.8d5e3a12.chunk.css",
     "static/js/main.e482e396.chunk.js"
   ]
 }
