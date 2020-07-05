@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/matteo-desantis-website/precache-manifest.5eb7782476b34219f4122dc3fd64af84.js"
+  "/matteo-desantis-website/precache-manifest.0d6bfc8aa68f131ff66cd7ae60e85a6f.js"
 );
 
 self.addEventListener('message', (event) => {
