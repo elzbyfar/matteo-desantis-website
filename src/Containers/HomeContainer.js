@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import Images from '../AssetLibraries/Images';
-import Press from '../Components/Press';
-import BioContent from '../Components/BioContent';
+import Press from '../Components/About/Press';
+import BioContent from '../Components/About/Bio';
 import FooterInfo from '../Components/FooterInfo';
-import Navigation from '../Components/Navigation';
-import Gallery from '../Components/Gallery';
-import Testimonials from '../Components/Testimonials';
-import AboutSidebar from '../Components/AboutSidebar';
-import BookSidebar from '../Components/BookSidebar';
+import Navigation from '../NavBars/Navigation';
+import Gallery from '../Components/About/Gallery';
+import Testimonials from '../Components/About/Testimonials';
+import AboutSidebar from '../NavBars/AboutSidebar';
+import BookSidebar from '../NavBars/BookSidebar';
 import '../Styles/HomeContainer.css';
+import CatalogueSidebar from '../NavBars/CatalogueSidebar';
 
 const HomeContainer = () => {
 	const [ about, setAbout ] = useState(false);
@@ -20,8 +21,10 @@ const HomeContainer = () => {
 	const [ book, setBook ] = useState(false);
 	const [ schedule, setSchedule ] = useState(true)
 	const [ contact, setContact ] = useState(false)
-
+	
 	const [ catalogue, setCatalogue ] = useState(false);
+	const [ music, setMusic ] = useState(true)
+	const [ videos, setVideos ] = useState(false)
 
 	return (
 		<div className="home-container-container">
@@ -54,7 +57,14 @@ const HomeContainer = () => {
 							setContact={setContact}
 						/>
 						</div>}
-					{catalogue && <div className="about-content-container"></div>}
+					{catalogue && <div className="about-content-container">
+						<CatalogueSidebar 
+							music={music}
+							videos={videos}
+							setMusic={setMusic}
+							setVideos={setVideos}
+						/>
+						</div>}
 				</div>
 				<Navigation 
 					about={about}

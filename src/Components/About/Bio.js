@@ -1,5 +1,5 @@
 import React from 'react';
-import Images from '../AssetLibraries/Images';
+import Images from '../../AssetLibraries/Images';
 
 const BioContent = () => {
 	return (

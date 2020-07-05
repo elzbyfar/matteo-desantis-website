@@ -8,7 +8,7 @@ const FooterInfo = () => {
 				<span className="footer-info">908.723.5320</span>
 				<span className="footer-info">
 					<a className="footer-links" href="mailto:matthewdesantis@gmail.com" target="_blank">
-						MatteoDeSantis@gmail.com
+						MatthewDeSantis@gmail.com
 					</a>
 				</span>
 				<span className="footer-info">
