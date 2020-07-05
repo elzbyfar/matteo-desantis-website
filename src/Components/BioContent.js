@@ -4,7 +4,7 @@ import Images from '../AssetLibraries/Images';
 const BioContent = () => {
 	return (
 		<span className="content-bio">
-			<img className="bio-photo-1" src={Images.matthew1} />
+			<img className="bio-photo-1" src={Images.gallery[0]} />
 			<p>
 				Matthew DeSantis is an exciting and upcoming entertainer based in the New York City and Miami-Dade area.
 				He performs with unique enthusiasm spurring a fun-loving atmosphere that transmits clearly to his
@@ -29,7 +29,7 @@ const BioContent = () => {
 				his music to both the private and public arenas in the Tri-state area and in Miami Florida. Check him
 				out on Instagram @MattyDMusic.
 			</p>
-			<img className="bio-photo-2" src={Images.matthew2} />
+			<img className="bio-photo-2" src={Images.gallery[1]} />
 
 			<p>
 				Matthew DeSantis is an exciting and upcoming entertainer based in the New York City and Miami-Dade area.

@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/matteo-desantis-website/static/css/main.b0c932a7.chunk.css",
-    "main.js": "/matteo-desantis-website/static/js/main.505711ac.chunk.js",
-    "main.js.map": "/matteo-desantis-website/static/js/main.505711ac.chunk.js.map",
+    "main.css": "/matteo-desantis-website/static/css/main.075361d4.chunk.css",
+    "main.js": "/matteo-desantis-website/static/js/main.e482e396.chunk.js",
+    "main.js.map": "/matteo-desantis-website/static/js/main.e482e396.chunk.js.map",
     "runtime-main.js": "/matteo-desantis-website/static/js/runtime-main.308a4c76.js",
     "runtime-main.js.map": "/matteo-desantis-website/static/js/runtime-main.308a4c76.js.map",
-    "static/js/2.51c49895.chunk.js": "/matteo-desantis-website/static/js/2.51c49895.chunk.js",
-    "static/js/2.51c49895.chunk.js.map": "/matteo-desantis-website/static/js/2.51c49895.chunk.js.map",
+    "static/js/2.3b14fc51.chunk.js": "/matteo-desantis-website/static/js/2.3b14fc51.chunk.js",
+    "static/js/2.3b14fc51.chunk.js.map": "/matteo-desantis-website/static/js/2.3b14fc51.chunk.js.map",
     "index.html": "/matteo-desantis-website/index.html",
-    "precache-manifest.82874731980a35440a3e5d2ea29028d4.js": "/matteo-desantis-website/precache-manifest.82874731980a35440a3e5d2ea29028d4.js",
+    "precache-manifest.4489b2c6eaba9f675f51c20f2d7d3a26.js": "/matteo-desantis-website/precache-manifest.4489b2c6eaba9f675f51c20f2d7d3a26.js",
     "service-worker.js": "/matteo-desantis-website/service-worker.js",
-    "static/css/main.b0c932a7.chunk.css.map": "/matteo-desantis-website/static/css/main.b0c932a7.chunk.css.map",
-    "static/js/2.51c49895.chunk.js.LICENSE.txt": "/matteo-desantis-website/static/js/2.51c49895.chunk.js.LICENSE.txt",
+    "static/css/main.075361d4.chunk.css.map": "/matteo-desantis-website/static/css/main.075361d4.chunk.css.map",
+    "static/js/2.3b14fc51.chunk.js.LICENSE.txt": "/matteo-desantis-website/static/js/2.3b14fc51.chunk.js.LICENSE.txt",
     "static/media/HomeContainer.css": "/matteo-desantis-website/static/media/background-vid.8a19f9a6.gif",
     "static/media/logo.svg": "/matteo-desantis-website/static/media/logo.5d5d9eef.svg",
     "static/media/matthew-desantis-logo.png": "/matteo-desantis-website/static/media/matthew-desantis-logo.a4e54b1d.png",
     "static/media/matthew01.jpg": "/matteo-desantis-website/static/media/matthew01.7119e653.jpg",
-    "static/media/matthew02.jpg": "/matteo-desantis-website/static/media/matthew02.d5d393c9.jpg"
+    "static/media/matthew02.jpg": "/matteo-desantis-website/static/media/matthew02.d5d393c9.jpg",
+    "static/media/matthew03.JPG": "/matteo-desantis-website/static/media/matthew03.1462ceea.JPG",
+    "static/media/matthew04.JPG": "/matteo-desantis-website/static/media/matthew04.d3c311bb.JPG",
+    "static/media/matthew05.jpg": "/matteo-desantis-website/static/media/matthew05.356d4d77.jpg",
+    "static/media/matthew06.JPG": "/matteo-desantis-website/static/media/matthew06.57903f4f.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.308a4c76.js",
-    "static/js/2.51c49895.chunk.js",
-    "static/css/main.b0c932a7.chunk.css",
-    "static/js/main.505711ac.chunk.js"
+    "static/js/2.3b14fc51.chunk.js",
+    "static/css/main.075361d4.chunk.css",
+    "static/js/main.e482e396.chunk.js"
   ]
 }
