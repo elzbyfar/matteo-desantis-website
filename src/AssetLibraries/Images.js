@@ -1,6 +1,8 @@
 const Images = {
   backgroundVideo: require('../Images/background-vid.gif'), 
   logo: require('../Images/matthew-desantis-logo.png'),
+  left: require('../Images/arrow-left.png'),
+  right: require('../Images/arrow-right.png'),
   gallery: [
     require('../Images/matthew01.jpg'), 
     require('../Images/matthew02.jpg'),

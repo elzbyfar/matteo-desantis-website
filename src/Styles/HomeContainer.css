@@ -315,11 +315,23 @@ html {
 	border: 2px solid transparent;
 	transition: all 1s ease-in-out;
 }
+.arrows-and-slides {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.arrows {
+	width: 3vmin;
+	margin-left: 10vmin;
+	margin-right: 10vmin;
+	object-fit: contain;
+	filter: invert(30%);
+	cursor: pointer;
+}
 .slides {
 	overflow: hidden;
-	margin: 1%;
+	margin: 2vmin;
 	display: flex;
-	/* overflow-x: scroll; */
 	border-radius: 10px;
 	width: 50vmin;
 	height: 50vmin;
@@ -338,20 +350,23 @@ html {
 	width: 50vmin;
 	height: 50vmin;
 	opacity: 1;
+	border-radius: 5px;
 	object-fit: cover;
 	object-position: top;
+	filter: grayscale(100%);
 	filter: blur(0);
-	border: 2px solid rgb(238, 238, 238);
+	border: 1px solid rgb(134, 84, 84);
 	transition: all 0.5s ease-in-out;
 }
 .slides .unSelected-slide {
 	width: 50vmin;
 	height: 50vmin;
-	opacity: 0.6;
+	opacity: 0.3;
 	object-fit: cover;
 	object-position: top;
-	filter: blur(10px);
-	border: 2px solid rgb(238, 238, 238);
+	filter: grayscale(0%);
+	filter: blur(3px);
+	border: 1px solid transparent;
 	transition: all 0.5s ease-in-out;
 }
 .thumbnails li:target {
