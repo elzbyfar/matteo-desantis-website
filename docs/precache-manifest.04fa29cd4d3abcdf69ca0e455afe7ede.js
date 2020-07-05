@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71522821215c39eb44b9a3ab398731f1",
+    "revision": "dc19761a6fb3608fce94d4ba39ee8431",
     "url": "/matteo-desantis-website/index.html"
   },
   {
