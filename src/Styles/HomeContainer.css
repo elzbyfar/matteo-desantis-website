@@ -145,7 +145,6 @@
 .about-content-container {
 	display: flex;
 	flex-direction: row;
-	/* justify-content: space-between; */
 	width: 100%;
 	height: 100%;
 }
@@ -237,10 +236,8 @@
 	overflow: scroll;
 }
 .content-bio::first-letter {
-	/* font-size: 50px; */
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 @charset "utf-8";
 
@@ -408,9 +405,6 @@ html {
 	max-width: 200px;
 	padding-right: 1em;
 }
-
-
-
 
 .footer-info-container {
 	position: absolute;
