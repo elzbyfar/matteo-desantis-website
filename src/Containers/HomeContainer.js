@@ -5,6 +5,9 @@ import Bio from '../Components/About/Bio';
 import Press from '../Components/About/Press';
 import Contact from '../Components/Book/Contact';
 import Gallery from '../Components/About/Gallery';
+import Music from '../Components/Catalogue/Music';
+import Video from '../Components/Catalogue/Video';
+
 import Schedule from '../Components/Book/Schedule';
 import Navigation from '../NavBars/Navigation';
 import FooterInfo from '../Components/FooterInfo';
@@ -73,7 +76,16 @@ const HomeContainer = () => {
 
 					{catalogue && (
 						<div className="about-content-container">
-							<CatalogueSidebar music={music} videos={videos} setMusic={setMusic} setVideos={setVideos} />
+							<CatalogueSidebar 
+								music={music} 
+								videos={videos} 
+								setMusic={setMusic} 
+								setVideos={setVideos} 
+							/>
+							<div className="about-content">
+								{music && <Music />}
+								{videos && <Video />}
+							</div>
 						</div>
 					)}
 				</div>
