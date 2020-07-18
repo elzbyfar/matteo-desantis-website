@@ -25,7 +25,7 @@ const HomeContainer = () => {
 	const [ testimonials, setTestimonials ] = useState(false);
 
 	const [ book, setBook ] = useState(false);
-	const [ contact, setContact ] = useState(false);
+	const [ contact, setContact ] = useState(true);
 
 	const [ catalogue, setCatalogue ] = useState(false);
 	const [ music, setMusic ] = useState(true);
