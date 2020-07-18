@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f5f06dd71aaca31f356204872dfe8ea",
+    "revision": "51fae53474b997c79c9ce5ca2bc96b42",
     "url": "/matteo-desantis-website/index.html"
   },
   {
-    "revision": "9d2ce604dc98eca014a6",
-    "url": "/matteo-desantis-website/static/css/main.2bcac2c0.chunk.css"
+    "revision": "58c068f057816649b641",
+    "url": "/matteo-desantis-website/static/css/main.d429083d.chunk.css"
   },
   {
-    "revision": "18d167ee23db926c9ff9",
-    "url": "/matteo-desantis-website/static/js/2.2f07c582.chunk.js"
+    "revision": "fbe5403fd33c34acd310",
+    "url": "/matteo-desantis-website/static/js/2.3243b2f0.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/matteo-desantis-website/static/js/2.2f07c582.chunk.js.LICENSE.txt"
+    "url": "/matteo-desantis-website/static/js/2.3243b2f0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9d2ce604dc98eca014a6",
-    "url": "/matteo-desantis-website/static/js/main.b2b43865.chunk.js"
+    "revision": "58c068f057816649b641",
+    "url": "/matteo-desantis-website/static/js/main.dff55690.chunk.js"
   },
   {
     "revision": "819774063979b98cd50c",
@@ -26,10 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8a19f9a6e647c021d41c003544a5bcc5",
     "url": "/matteo-desantis-website/static/media/background-vid.8a19f9a6.gif"
-  },
-  {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/matteo-desantis-website/static/media/logo.5d5d9eef.svg"
   },
   {
     "revision": "a4e54b1dd851297a724399d697fcb9c0",
