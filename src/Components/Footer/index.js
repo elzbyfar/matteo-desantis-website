@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FooterInfo = () => {
+const Footer = () => {
   return (
     <div className="footer-info-container">
 				<span className="footer-info">© COPYRIGHT 2020 MATTHEW DESANTIS, LLC</span>
@@ -21,4 +21,4 @@ const FooterInfo = () => {
   );
 }
 
-export default FooterInfo;
+export default Footer;

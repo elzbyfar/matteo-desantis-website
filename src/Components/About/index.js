@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AboutSidebar = (props) => {
+const About = (props) => {
 	return (
 		<div className="content-links">
 			<button
@@ -51,4 +51,4 @@ const AboutSidebar = (props) => {
 	);
 };
 
-export default AboutSidebar;
+export default About;

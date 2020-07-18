@@ -1,22 +1,21 @@
 import React, { useState } from 'react';
-import Images from '../Helpers/Images';
+import Images from '../../Helpers/Images';
 
-import Bio from '../Components/About/Bio';
-import Press from '../Components/About/Press';
-import Contact from '../Components/Book/Contact';
-import Gallery from '../Components/About/Gallery';
-import Music from '../Components/Catalogue/Music';
-import Video from '../Components/Catalogue/Video';
+import Bio from '../Bio';
+import Press from '../Press';
+import Contact from '../Contact';
+import Gallery from '../Gallery';
+import Music from '../Music';
+import Videos from '../Videos';
 
-import Schedule from '../Components/Book/Schedule';
-import Navigation from '../NavBars/Navigation';
-import FooterInfo from '../Components/FooterInfo';
-import BookSidebar from '../NavBars/BookSidebar';
-import Testimonials from '../Components/About/Testimonials';
-import AboutSidebar from '../NavBars/AboutSidebar';
-import CatalogueSidebar from '../NavBars/CatalogueSidebar';
+import Navigation from '../Navigation';
+import Footer from '../Footer';
+import Book from '../Book';
+import Testimonials from '../Testimonials';
+import About from '../About';
+import Catalogue from '../Catalogue';
 
-import '../Styles/HomeContainer.css';
+import '../../Styles/HomeContainer.css';
 
 const HomeContainer = () => {
 	const [ about, setAbout ] = useState(false);
@@ -26,7 +25,6 @@ const HomeContainer = () => {
 	const [ testimonials, setTestimonials ] = useState(false);
 
 	const [ book, setBook ] = useState(false);
-	const [ schedule, setSchedule ] = useState(true);
 	const [ contact, setContact ] = useState(false);
 
 	const [ catalogue, setCatalogue ] = useState(false);
@@ -40,7 +38,7 @@ const HomeContainer = () => {
 				<div className={about || book || catalogue ? 'content' : 'content-closed'}>
 					{about && (
 						<div className="about-content-container">
-							<AboutSidebar
+							<About
 								bio={bio}
 								gallery={gallery}
 								press={press}
@@ -61,14 +59,11 @@ const HomeContainer = () => {
 
 					{book && (
 						<div className="about-content-container">
-							<BookSidebar
-								schedule={schedule}
+							<Book
 								contact={contact}
-								setSchedule={setSchedule}
 								setContact={setContact}
 							/>
 							<div className="about-content">
-								{schedule && <Schedule />}
 								{contact && <Contact />}
 							</div>
 						</div>
@@ -76,7 +71,7 @@ const HomeContainer = () => {
 
 					{catalogue && (
 						<div className="about-content-container">
-							<CatalogueSidebar 
+							<Catalogue 
 								music={music} 
 								videos={videos} 
 								setMusic={setMusic} 
@@ -84,7 +79,7 @@ const HomeContainer = () => {
 							/>
 							<div className="about-content">
 								{music && <Music />}
-								{videos && <Video />}
+								{videos && <Videos />}
 							</div>
 						</div>
 					)}
@@ -98,7 +93,7 @@ const HomeContainer = () => {
 					setCatalogue={setCatalogue}
 				/>
 			</div>
-			<FooterInfo />
+			<Footer />
 		</div>
 	);
 };

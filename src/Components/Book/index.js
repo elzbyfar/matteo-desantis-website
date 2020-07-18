@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BookSidebar = (props) => {
+const Book = (props) => {
   return (
     <div className="content-links">
       <button onClick={() => {
@@ -15,4 +15,4 @@ const BookSidebar = (props) => {
   );
 }
 
-export default BookSidebar;
+export default Book;

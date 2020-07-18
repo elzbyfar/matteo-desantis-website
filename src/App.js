@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './Styles/App.css';
-import HomeContainer from './Containers/HomeContainer'
+import HomeContainer from './Components/HomeContainer'
 
 function App() {
   return (

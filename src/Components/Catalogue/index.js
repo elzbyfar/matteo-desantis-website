@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CatalogueSidebar = (props) => {
+const Catalogue = (props) => {
   return (
     <div className="content-links">
       <button onClick={() => {
@@ -15,4 +15,4 @@ const CatalogueSidebar = (props) => {
   );
 }
 
-export default CatalogueSidebar;
+export default Catalogue;
